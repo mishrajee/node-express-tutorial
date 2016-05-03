@@ -1,0 +1,32 @@
+{
+  "name": "bookReader",
+  "version": "0.0.0",
+  "authors": [
+    "Abhinava Mishra <abhinava.mis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  },
+  "overrides" : {
+    "bootstrap": {
+    "main": [
+      "dist/css/bootstrap.css",
+      "less/bootstrap.less",
+      "dist/js/bootstrap.js"
+     ]
+    },
+    "font-awesome" : {
+      "main": [
+        "css/font-awesome.min.css",
+        "less/font-awesome.less",
+        "scss/font-awesome.scss"
+      ]
+    }
+  }
+}
